@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.tmp/
+.github-push-staging/
+sweep_*/
+sim_data_pre_RDN/
+sim_data_post_RDN/
+sim_data_log/
+sweep.log

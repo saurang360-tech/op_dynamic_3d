@@ -1,0 +1,36 @@
+{
+  "sweep_name": "exploratory",
+  "fixed_params": {
+    "N": 1000,
+    "m": 5,
+    "K": 3.0,
+    "alpha": 2.0,
+    "alpha2": 3.0,
+    "delta": 50,
+    "beta": 2.0,
+    "r": 0.5,
+    "gamma": 2.1,
+    "epsilon": 0.01,
+    "RDN_select": 0,
+    "RDN_topic": 0,
+    "RDN_D": 1.0,
+    "RDN_n": 10
+  },
+  "range_params": {
+    "delta": [20,40,60, 80, 90],
+    "alpha": [1.0, 2.0, 3.0, 4.0],
+    "alpha2": [1.0, 2.0, 3.0, 4.0],
+    "RDN_select": [0, 1, 2]
+  },
+  "pre_rdn": {
+    "dt": 0.01,
+    "t_dur": 3.0
+  },
+  "post_rdn": {
+    "dt": 0.01,
+    "t_dur": 3.0
+  },
+  "repetitions": 5,
+  "seed_start": 4242,
+  "output_root": "sweep_2"
+}
